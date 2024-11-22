@@ -1,0 +1,20 @@
+name: queries_repository
+description: none
+publish_to: 'none'
+version: 1.0.0
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  rxdart: ^0.27.7
+  collection: ^1.18.0
+  equatable: ^2.0.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  build_verify: ^3.1.0
+flutter:

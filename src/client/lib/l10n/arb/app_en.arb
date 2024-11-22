@@ -1,0 +1,151 @@
+{
+  "commonEdit": "edit",
+  "commonSave": "save",
+  "commonAdmin": "admin",
+  "commonRemove": "remove",
+  "commonRefresh": "refresh",
+  "commonLogin": "login",
+  "commonEnable": "enable",
+  "commonDisable": "disable",
+  "commonConnecting": "connecting",
+  "commonLoading": "loading",
+  "commonErrorMessage": "an unexpected error occurred",
+  "commonQueuedMessage": "queued {count} {count, plural, =0{task} =1{task} other{tasks}}",
+  "@commonQueuedMessage": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+
+  "splashMessageInitializing": "initializing",
+  "splashMessageFailure": "an error occurred while initializing the application",
+
+  "appbarTabLabelConnect": "connect",
+  "appbarTabLabelImport": "import",
+  "appbarTabLabelSearch": "search",
+  "appbarTabLabelTasks": "tasks",
+  "appbarTabLabelSettings": "settings",
+
+  "identityLoginLabel": "login",
+  "identityLoginModalTitle": "login to beeapps.org",
+
+  "connectNewServer": "new server",
+  "connectNewVault": "new vault",
+
+  "connectRemoveServerDialogTitle": "delete server ?",
+  "connectRemoveServerDialogMessage": "deleting this server will close all related connections",
+  "connectRemoveServerDialogConfirm": "yes, delete server",
+  "connectRemoveServerDialogCancel": "no, keep server",
+
+  "connectRemoveVaultDialogTitle": "delete vault ? (VERY DANGEROUS ACTION)",
+  "connectRemoveVaultDialogMessage": "deleting this vault will delete all associated files",
+  "connectRemoveVaultDialogConfirm": "yes, delete vault",
+  "connectRemoveVaultDialogCancel": "no, keep vault",
+
+  "connectEditServerModalTitle": "edit a server",
+  "connectNewServerModalTitle": "add a new server",
+
+  "connectEditVaultModalTitle": "edit a vault",
+  "connectNewVaultModalTitle": "create a new vault",
+
+  "connectSaveServerFailed": "failed to save server",
+  "connectSaveVaultFailed": "failed to save vault",
+
+  "connectFetchVaultsFailed": "failed to connect",
+  "connectFetchVaultsNotAuthorized": "unauthorized",
+  "connectFetchVaultsSuccess": "{count, plural, =0{no vault} =1{1 vault} other{{count} vaults}}",
+  "@connectFetchVaultsSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+
+  "connectVaultConnectFailed": "failed to reach server",
+  "connectVaultSubscriptionFailed": "failed to connect to this vault",
+  "connectVaultDeleted": "vault has been deleted",
+  "connectVaultRemoveFailed": "an error occurred when trying to delete this vault, try refreshing this server",
+
+  "importAddFiles": "add files",
+  "importAddDirectory": "add directory",
+  "importClearAll": "clear all",
+  "importImport": "import {fileCount, plural, =0{0 file} =1{1 file} other{{fileCount} files}} to {vaultCount, plural, =0{0 vault} =1{1 vault} other{{vaultCount} vaults}}",
+  "@importImport": {
+    "placeholders": {
+      "fileCount": {
+        "type": "num",
+        "format": "compact"
+      },
+      "vaultCount": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+
+  "importClearAllDialogTitle": "clear all files ?",
+  "importClearAllDialogMessage": "you will lose all the work done on this screen",
+  "importClearAllDialogConfirm": "yes, clear all files",
+  "importClearAllDialogCancel": "no, keep files",
+
+  "inputLabelTitle": "label",
+  "inputEndpointTitle": "address",
+  "inputEmailTitle": "email",
+  "inputPasswordTitle": "password",
+  "inputVaultTypeTitle": "vault type",
+  "inputVaultTypeFileVault" : "file vault (sqlite)",
+  "inputDatabaseDirectoryTitle": "database directory (optional)",
+  "inputFilesDirectoryTitle": "files directory (optional)",
+  "inputStorageTypeTitle": "storage type",
+  "inputStorageTypeLocalStorage" : "local storage (hard-drive)",
+  "inputErrorEmpty": "required",
+  "inputErrorTooLong": "too long, max. {size} characters",
+  "@inputErrorTooLong": {
+    "placeholders": {
+      "size": {
+        "type": "int"
+      }
+    }
+  },
+  "inputErrorMalformed": "malformed",
+
+  "vaultsPickerTitle": "vaults",
+  "vaultsPickerNoVaultMessage": "no vault enabled",
+
+  "serverTaskTypePlaceholder": "???",
+  "serverTaskTypeMediaImport": "import media",
+  "serverTaskTypeGenerateThumbnail": "generate thumbnail",
+
+  "clientTaskImportTitle": "importing {file} to vault {vault}",
+  "@clientTaskImportTitle": {
+    "placeholders": {
+      "file": {
+        "type": "String"
+      },
+      "vault": {
+        "type": "String"
+      }
+    }
+  },
+
+  "searchFieldHint": "search query",
+  "searchSearch": "search in {vaultCount, plural, =0{0 vault} =1{1 vault} other{{vaultCount} vaults}}",
+  "@searchSearch": {
+    "placeholders": {
+      "vaultCount": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  },
+
+  "authLogoutDialogTitle": "logout ?",
+  "authLogoutDialogMessage": "this will close your session and all related connections",
+  "authLogoutDialogConfirm": "yes, logout",
+  "authLogoutDialogCancel": "no, stay logged in"
+}
